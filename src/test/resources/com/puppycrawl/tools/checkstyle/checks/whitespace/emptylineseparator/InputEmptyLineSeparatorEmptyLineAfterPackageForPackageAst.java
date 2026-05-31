@@ -8,8 +8,8 @@ tokens = PACKAGE_DEF
 
 */
 
-package com.puppycrawl.tools.checkstyle.checks.whitespace.emptylineseparator;
-/** // violation ''/\*' should be separated from previous line.'
+package com.puppycrawl.tools.checkstyle.checks.whitespace.emptylineseparator; // violation below ''/\*' should be separated from previous line.'
+/**
  *
  *
  */
