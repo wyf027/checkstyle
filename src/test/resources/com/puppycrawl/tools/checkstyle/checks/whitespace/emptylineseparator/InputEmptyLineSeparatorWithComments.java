@@ -26,10 +26,10 @@ import java.lang.Class;
 import java.lang.Integer;
 
 // ok, because no more than 1 empty lines before
-import java.lang.Long;
+import java.lang.Long; // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-/* // violation ''/\*' has more than 1 empty lines before.'
+/*
  *
  */
 import java.lang.Float;
@@ -37,10 +37,10 @@ import java.lang.Float;
 /*
  * something
  */
-import java.lang.Double;
+import java.lang.Double; // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-/** // violation ''/\*' has more than 1 empty lines before.'
+/**
  *
  */
 import java.lang.Character;
@@ -80,10 +80,10 @@ import java.lang.Thread;
 
 
 // violation ''//' has more than 1 empty lines before.'
-import java.lang.StringBuilder;
+import java.lang.StringBuilder; // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-/* // violation ''/\*' has more than 1 empty lines before.'
+/*
  *
  */
 import static java.lang.Math.abs;
@@ -100,10 +100,10 @@ public class InputEmptyLineSeparatorWithComments {
     public int testViolationWithSingleLineComment = 3;
 
     // Should be ok
-    public int testNoViolationWithSingleLineComment = 4;
+    public int testNoViolationWithSingleLineComment = 4; // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /* // violation ''/\*' has more than 1 empty lines before.'
+    /*
      * Should have
      * violation
      */
@@ -113,10 +113,10 @@ public class InputEmptyLineSeparatorWithComments {
      * Should not have
      * violation
      */
-    public int testNoViolationWithMultilineComment = 6;
+    public int testNoViolationWithMultilineComment = 6; // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /** // violation ''/\*' has more than 1 empty lines before.'
+    /**
      * Should have
      * violation
      */
@@ -143,10 +143,10 @@ public class InputEmptyLineSeparatorWithComments {
     // Should not have
     // a violation
     public void testNoViolationWithSingleLineComment() {
-    }
+    } // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /*// violation ''/\*' has more than 1 empty lines before.'
+    /*
      * Should have
      * violation
      */
@@ -158,10 +158,10 @@ public class InputEmptyLineSeparatorWithComments {
      * violation
      */
     public void testNoViolationWithMultilineComment() {
-    }
+    } // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /** // violation ''/\*' has more than 1 empty lines before.'
+    /**
      * Should have
      * violation
      */
@@ -203,10 +203,10 @@ public class InputEmptyLineSeparatorWithComments {
      * Should not have
      * violation
      */
-    public static class Class7 { }
+    public static class Class7 { } // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /* // violation ''/\*' has more than 1 empty lines before.'
+    /*
      * Should have
      * violation
      */
@@ -216,10 +216,10 @@ public class InputEmptyLineSeparatorWithComments {
      * Should not have
      * violation
      */
-    public static class Class9 { }
+    public static class Class9 { } // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /** // violation ''/\*' has more than 1 empty lines before.'
+    /**
      * Should have
      * violation
      */
@@ -238,10 +238,10 @@ public class InputEmptyLineSeparatorWithComments {
     // violation below ''INTERFACE_DEF' should be separated from previous line.'
     public
     // .
-    interface Interface3 { }
+    interface Interface3 { } // violation 3 lines below ''/\*' has more than 1 empty lines before.'
 
 
-    /* // violation ''/\*' has more than 1 empty lines before.'
+    /*
      */
     /* . */
     /* . */
