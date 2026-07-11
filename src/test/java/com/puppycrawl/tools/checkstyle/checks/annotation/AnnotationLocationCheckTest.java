@@ -264,8 +264,8 @@ public class AnnotationLocationCheckTest extends AbstractModuleTestSupport {
     @Test
     public void testPackage() throws Exception {
         final String[] expected = {
-            "12:3: " + getCheckMessage(MSG_KEY_ANNOTATION_LOCATION, "PackageAnnotation", 2, 0),
-            "14:1: " + getCheckMessage(MSG_KEY_ANNOTATION_LOCATION_ALONE, "PackageAnnotation"),
+            "14:3: " + getCheckMessage(MSG_KEY_ANNOTATION_LOCATION, "PackageAnnotation", 2, 0),
+            "15:1: " + getCheckMessage(MSG_KEY_ANNOTATION_LOCATION_ALONE, "PackageAnnotation"),
         };
         verifyWithInlineConfigParser(
                 getPath("inputs/package-info.java"), expected);
